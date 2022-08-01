@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500&family=Rubik:wght@300;400;500&display=swap');
+*{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+font-family: 'Rubik', sans-serif;
+}
+body{
+    background-color: hsl(226, 43%, 10%);
+    
+}
+.btn:hover{
+    cursor: pointer;
+    
+}
+.container-all{
+    display: grid;
+    grid-template-columns: repeat(4,250px);
+    grid-template-rows: repeat(2,250px);
+    gap:1.5rem;
+    color: white;
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+ul{
+    position: absolute;
+    bottom: 40px;
+}
+li:hover{
+    color:white;
+    opacity: 100%;
+}
+li{
+    list-style: none;
+    margin-bottom: 30px;
+    opacity: 70%;
+}
+.case{
+    background-image: url('images/icon-work.svg');
+  
+}
+.controller{
+background-image: url('images/icon-play.svg');
+}
+.book{
+    background-image: url('images/icon-study.svg');
+}
+.man{
+    background-image: url('images/icon-exercise.svg');
+}
+.chat{
+    background-image: url('images/icon-social.svg');
+}
+.heart{
+    background-image: url('images/icon-self-care.svg');
+}
+.svg{
+    background-size: cover;
+    margin-left: 170px;
+    height:60px;
+    width: 60px;
+    margin-top:-8px;
+}
+.color{
+    position: relative;
+   overflow: hidden;
+    border-radius: 15px;
+ 
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.time{
+    font-size:30px;
+    margin-bottom: -20px;
+}
+
+.child{
+    position: absolute;
+    bottom: 0;
+    background-color:hsl(235, 46%, 20%) ;
+    border-radius: inherit;
+    height: 215px;
+    width: 250px;
+    padding: 30px;
+    box-sizing: border-box;
+
+}
+.jeremy{
+    background-image: url('images/image-jeremy.png');
+    background-size: cover;
+    height:70px;
+    width: 70px;
+    margin-bottom:30px ;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+h1{
+    font-weight: 300;
+    margin-top: 0px;
+}
+.name-time{
+    grid-row: span 2;
+    background-color:hsl(235, 46%, 20%) ;
+    font-weight: 300;
+    border-radius: 10px;
+}
+.display_name{
+    background-color: hsl(246, 80%, 60%);
+    height:220px;
+    padding:30px;
+    border-radius: 10px;
+}
+.orange{
+    background-color: hsl(15, 100%, 70%);
+}
+.blue{
+    background-color: hsl(195, 74%, 62%);
+}
+.red{
+    background-color:hsl(348, 100%, 68%) ;
+}
+.green{
+    background-color:hsl(145, 58%, 55%) ;
+}
+.purple{
+    background-color: hsl(264, 64%, 52%);
+}
+.yellow{
+    background-color: hsl(43, 84%, 65%);
+}
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
